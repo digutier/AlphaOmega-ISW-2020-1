@@ -1,0 +1,5 @@
+package com.alphaomega.springboot.app.request.controllers;
+
+public class RequestController {
+
+}

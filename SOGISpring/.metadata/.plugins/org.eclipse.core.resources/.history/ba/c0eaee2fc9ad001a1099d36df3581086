@@ -1,0 +1,5 @@
+package com.alphaomega.springboot.app.request.models;
+
+public interface RequestService {
+
+}

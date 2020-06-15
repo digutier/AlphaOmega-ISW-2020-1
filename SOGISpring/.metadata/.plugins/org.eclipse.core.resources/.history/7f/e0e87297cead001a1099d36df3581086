@@ -1,0 +1,14 @@
+package com.alphaomega.springboot.app.request.clients;
+
+import java.util.List;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+import com.alphaomega.springboot.app.request.models.Equipment;
+
+@FeignClient(name= "equipment-service", url="localhost:8001")
+public interface EquipmentClientRest {
+	
+	@GetMapping
+	public List<Equipment> listar();
+}

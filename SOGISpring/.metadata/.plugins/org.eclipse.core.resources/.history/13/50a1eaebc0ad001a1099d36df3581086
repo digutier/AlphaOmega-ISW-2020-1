@@ -1,0 +1,5 @@
+package com.alphaomega.springboot.app.equipments.model.service;
+
+public interface IEquipmentService {
+
+}

@@ -1,0 +1,5 @@
+INSERT INTO equipments (name, last_maintenance, next_maintenance, description, state) VALUES ('Tijera', NOW(), NOW(), 'Probando', true);
+INSERT INTO equipments (name, last_maintenance, next_maintenance, description, state) VALUES ('Mesa', NOW(), NOW(), 'Probando', true);
+INSERT INTO equipments (name, last_maintenance, next_maintenance, description, state) VALUES ('Paño', NOW(), NOW(), 'Probando', true);
+INSERT INTO equipments (name, last_maintenance, next_maintenance, description, state) VALUES ('Toalla', NOW(), NOW(), 'Probando', true);
+INSERT INTO equipments (name, last_maintenance, next_maintenance, description, state) VALUES ('Desfribilador', NOW(), NOW(), 'Probando', true);

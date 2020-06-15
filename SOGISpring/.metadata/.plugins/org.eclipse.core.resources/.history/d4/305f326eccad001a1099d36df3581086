@@ -1,0 +1,18 @@
+package com.alphaomega.springboot.app.request.controllers;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.alphaomega.springboot.app.request.models.service.RequestService;
+
+@RestController
+public class RequestController {
+	
+	@Autowired
+	private RequestService requestService;
+	
+	public List<Request> listar(){
+		return requestService.findAll();
+		
+	}
+}

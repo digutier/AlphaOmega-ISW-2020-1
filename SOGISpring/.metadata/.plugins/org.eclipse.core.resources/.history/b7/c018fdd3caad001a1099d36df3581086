@@ -1,0 +1,29 @@
+package com.alphaomega.springboot.app.request.models.service;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.alphaomega.springboot.app.request.models.Request;
+
+@Service
+public class RequestServiceImpl implements RequestService{
+
+	@Autowired
+	private RestTemplate restClient;
+	
+	@Override
+	public List<Request> findAll() {
+		List<Equipment> equipments = restClient.getForObject("http://localhost:8001/listar", responseType)
+		return null;
+	}
+
+	@Override
+	public Request findById(Long id, Integer quantity) {
+
+		return null;
+	}
+
+}

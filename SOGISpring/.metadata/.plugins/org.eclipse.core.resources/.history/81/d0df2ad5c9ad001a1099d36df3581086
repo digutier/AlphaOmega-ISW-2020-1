@@ -1,0 +1,5 @@
+package com.alphaomega.springboot.app.request;
+
+public class AppConfig {
+
+}

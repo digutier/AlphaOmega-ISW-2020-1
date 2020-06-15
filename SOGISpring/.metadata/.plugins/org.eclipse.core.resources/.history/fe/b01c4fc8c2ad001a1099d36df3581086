@@ -1,0 +1,21 @@
+package com.alphaomega.springboot.app.equipments.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.alphaomega.springboot.app.equipments.model.entity.Equipment;
+import com.alphaomega.springboot.app.equipments.model.service.IEquipmentService;
+
+@RestController
+public class EquipmentController {
+
+	@Autowired
+	private IEquipmentService equipmentService;
+	
+	@GetMapping("/listar")
+	public List<Equipment> listar(){
+		return equipmentService.findAll();
+	}
+}

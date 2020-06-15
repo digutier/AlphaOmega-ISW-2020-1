@@ -1,0 +1,6 @@
+package com.alphaomega.springboot.app.equipments.model.entity;
+
+public class Request {
+	
+	private 
+}

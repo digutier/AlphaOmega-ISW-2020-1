@@ -1,0 +1,8 @@
+1592076486142	Rename type 'Equipamiento'
+1592076839281	Encapsulate field 'createAt'
+1592083787183	Delete element
+1592083803939	Rename package 'com.alphaomega.springboot.app.equipamientos'
+1592083856399	Rename compilation unit 'equipment.java'
+1592088624864	Rename compilation unit 'request.java'
+1592088835527	Copy compilation unit
+1592088840639	Delete element

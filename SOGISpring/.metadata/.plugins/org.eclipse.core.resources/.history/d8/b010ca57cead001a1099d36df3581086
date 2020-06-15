@@ -1,0 +1,8 @@
+package com.alphaomega.springboot.app.request.clients;
+
+import org.springframework.cloud.openfeign.FeignClient;
+
+@FeignClient(name= "equipment-service")
+public interface EquipmentClientRest {
+
+}

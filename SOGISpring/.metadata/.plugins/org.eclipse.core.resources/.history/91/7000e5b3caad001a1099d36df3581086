@@ -1,0 +1,21 @@
+package com.alphaomega.springboot.app.request.models.service;
+
+import java.util.List;
+
+import com.alphaomega.springboot.app.request.models.Request;
+
+public class RequestServiceImpl implements RequestService{
+
+	@Override
+	public List<Request> findAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Request findById(Long id, Integer quantity) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

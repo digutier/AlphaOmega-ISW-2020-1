@@ -1,0 +1,1 @@
+INSERT INTO equipments (name, last_maintenance, next_maintenance

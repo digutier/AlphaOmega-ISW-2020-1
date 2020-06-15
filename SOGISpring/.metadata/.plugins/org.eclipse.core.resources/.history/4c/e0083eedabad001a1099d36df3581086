@@ -1,0 +1,5 @@
+package com.alphaomega.springboot.app.equipamientos.models.entity;
+
+public class Equipamiento {
+
+}

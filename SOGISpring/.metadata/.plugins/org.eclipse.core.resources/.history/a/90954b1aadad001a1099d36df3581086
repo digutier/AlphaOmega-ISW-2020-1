@@ -1,0 +1,71 @@
+package com.alphaomega.springboot.app.equipamientos.models.entity;
+
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "equipments")
+public class Equipment {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	private String name;
+	private Date lastMaintenance;
+	private Date nextMaintenance;
+	private String description;
+	private Boolean state;
+	
+	@Column(name = "create_at")
+	private Date createAt;
+	
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Date getLastMaintenance() {
+		return lastMaintenance;
+	}
+	public void setLastMaintenance(Date lastMaintenance) {
+		this.lastMaintenance = lastMaintenance;
+	}
+	public Date getNextMaintenance() {
+		return nextMaintenance;
+	}
+	public void setNextMaintenance(Date nextMaintenance) {
+		this.nextMaintenance = nextMaintenance;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public Boolean getState() {
+		return state;
+	}
+	public void setState(Boolean state) {
+		this.state = state;
+	}
+	public Date getCreateAt() {
+		return createAt;
+	}
+	public void setCreateAt(Date createAt) {
+		this.createAt = createAt;
+	}
+	
+}
